@@ -1,0 +1,17 @@
+@import './base/normalize';
+@import './utils/variables';
+@import './utils/mixins';
+@import './utils/specific';
+
+@import './components/body';
+@import './components/title';
+@import './components/subtitle';
+@import './components/text';
+
+@import './components/nav';
+@import './components/logo';
+@import './components/hero';
+
+@import './components/btn';
+
+@import './components/skills';
