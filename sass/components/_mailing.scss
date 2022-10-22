@@ -1,0 +1,24 @@
+.mailing {
+}
+
+.mailing__input {
+  padding: 16px 26px;
+  margin-bottom: 17px;
+  width: 100%;
+
+  font-size: 12px;
+  line-height: (18 / 12);
+  color: $color-text;
+  border: 1px solid $color-text;
+  border-radius: 5px;
+}
+
+.mailing__input::placeholder {
+  color: inherit;
+}
+
+.mailing__btn {
+  width: 100%;
+
+
+}

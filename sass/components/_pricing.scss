@@ -1,0 +1,61 @@
+.pricing {
+  margin-bottom: 50px;
+}
+
+.pricing__title {
+  margin-bottom: 50px;
+
+  text-align: center;
+}
+
+.pricing__list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.pricing__img {
+  margin-bottom: 25px;
+}
+
+.pricing__subtitle {
+  margin-bottom: 17px;
+
+  text-align: center;
+}
+
+.pricing__text {
+  margin-bottom: 33px;
+
+  text-align: center;
+}
+
+.pricing__info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 5px 12px;
+  margin: 0 auto;
+  min-width: 170px;
+  width: max-content;
+
+  border-radius: 5px;
+  background-color: $bg-color-btn-secondary;
+}
+
+.pricing__price {
+  margin-right: 10px;
+
+  font-size: 18px;
+  line-height: (27 / 18);
+
+  color: $bg-color-btn;
+}
+
+.pricing__period {
+  font-size: 14px;
+  line-height: (21 / 14);
+
+  color: $color-text-btn-secondary;
+}

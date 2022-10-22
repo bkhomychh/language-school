@@ -1,0 +1,34 @@
+.about {
+  margin-bottom: 50px;
+}
+
+.about__title {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.about__img {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.about__text {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.about__list {
+  display: flex;
+  flex-direction: column;
+  margin: -15px;
+
+  text-align: center;
+}
+
+.about__item {
+  margin: 15px;
+}
+
+.about__num {
+  margin-bottom: 5px;
+}

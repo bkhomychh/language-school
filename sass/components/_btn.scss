@@ -3,5 +3,12 @@
 
   color: $color-text-btn;
   background-color: $bg-color-btn;
+  outline: 1px solid $bg-color-btn;
   border-radius: 5px;
+
+  &:hover,
+  &:focus {
+    color: $bg-color-btn;
+    background-color: $color-text-btn;
+  }
 }
