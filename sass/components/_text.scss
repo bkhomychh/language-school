@@ -1,6 +1,10 @@
 .text {
   font-size: 13px;
-  line-height: 21px;
+  line-height: (21 / 13);
 
   color: $color-text;
+
+  @include tablet {
+    font-size: 14px;
+  }
 }

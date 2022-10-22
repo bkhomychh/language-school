@@ -1,10 +1,15 @@
 .footer {
 }
 
-.footer__container {
-  padding: 25px 0 25px;
-
+.footer__wrap {
+  padding: 25px 0 50px;
   border-top: 1px solid $color-text;
+
+  @include tablet {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 .footer__logo {
@@ -12,8 +17,17 @@
   margin-bottom: 15px;
 
   text-align: center;
+
+  @include tablet {
+    margin-bottom: 0;
+  }
 }
 
 .footer__text {
+  font-size: 11px;
   text-align: center;
+
+  @include tablet {
+    font-size: 12px;
+  }
 }

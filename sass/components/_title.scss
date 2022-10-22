@@ -4,4 +4,16 @@
   line-height: (36 / 24);
 
   color: $color-title;
+
+  @include tablet {
+    font-size: 30px;
+  }
+
+  @include desktop {
+    font-size: 36px;
+  }
+
+  @include extra {
+    font-size: 48px;
+  }
 }

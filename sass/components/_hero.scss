@@ -1,22 +1,44 @@
 .hero {
   margin-bottom: 50px;
   text-align: center;
+
+  @include tablet {
+    margin-bottom: 70px;
+  }
 }
 
 .hero__img {
   margin-bottom: 16px;
+
+  @include tablet {
+    padding: 0 43px;
+  }
 }
 
 .hero__title {
   margin-bottom: 20px;
+
+  @include tablet {
+    font-size: 34px;
+  }
 }
 
 .hero__text {
   margin-bottom: 33px;
 
   font-size: 14px;
+
+  @include tablet {
+    margin-bottom: 37px;
+
+    font-size: 16px;
+  }
 }
 
 .hero__btn {
-  width: 100%;
+  min-width: 100%;
+
+  @include tablet {
+    min-width: 305px;
+  }
 }

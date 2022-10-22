@@ -1,33 +1,59 @@
 .pricing {
   margin-bottom: 50px;
+
+  @include tablet {
+    margin-bottom: 70px;
+  }
 }
 
 .pricing__title {
   margin-bottom: 50px;
 
   text-align: center;
+
+  @include tablet {
+    margin-bottom: 70px;
+  }
 }
 
 .pricing__list {
   display: flex;
   flex-direction: column;
   gap: 30px;
+
+  @include tablet {
+    gap: 78px;
+  }
 }
 
 .pricing__img {
   margin-bottom: 25px;
+
+  @include tablet {
+    padding: 0 110px;
+    margin-bottom: 30px;
+  }
 }
 
 .pricing__subtitle {
   margin-bottom: 17px;
 
   text-align: center;
+
+  @include tablet {
+    font-size: 24px;
+  }
 }
 
 .pricing__text {
   margin-bottom: 33px;
 
   text-align: center;
+
+  @include tablet {
+    max-width: 394px;
+    margin: 0 auto 30px;
+  }
 }
 
 .pricing__info {
@@ -51,6 +77,10 @@
   line-height: (27 / 18);
 
   color: $bg-color-btn;
+
+  @include tablet {
+    font-size: 22px;
+  }
 }
 
 .pricing__period {
@@ -58,4 +88,8 @@
   line-height: (21 / 14);
 
   color: $color-text-btn-secondary;
+
+  @include tablet {
+    font-size: 16px;
+  }
 }

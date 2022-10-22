@@ -1,19 +1,37 @@
 .contact {
   margin-bottom: 50px;
+
+  @include tablet {
+    margin-bottom: 70px;
+  }
 }
 
 .contact__title {
   margin-bottom: 50px;
 
   text-align: center;
+
+  @include tablet {
+    margin-bottom: 70px;
+  }
 }
 
 .contact__img {
   margin-bottom: 55px;
+
+  @include tablet {
+    padding: 0 76px;
+    margin-bottom: 34px;
+  }
 }
 
 .contact__text {
-  margin-bottom: 31px;
+  margin-bottom: 30px;
 
   text-align: center;
+
+  @include tablet {
+    max-width: 469px;
+    margin: 0 auto 60px;
+  }
 }
