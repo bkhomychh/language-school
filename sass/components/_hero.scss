@@ -5,6 +5,20 @@
   @include tablet {
     margin-bottom: 70px;
   }
+
+  @include laptop {
+    margin-bottom: 60px;
+
+    text-align: start;
+  }
+}
+
+.hero__container {
+  @include laptop {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
 }
 
 .hero__img {
@@ -13,13 +27,56 @@
   @include tablet {
     padding: 0 43px;
   }
+
+  @include laptop {
+    flex-basis: 50%;
+    order: 1;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.hero__wrap {
+  @include laptop {
+    flex-basis: 50%;
+    padding-top: 30px;
+  }
+}
+
+.hero__box {
+  margin-bottom: 20px;
+
+  @include laptop {
+    display: flex;
+    margin-bottom: 25px;
+  }
 }
 
 .hero__title {
-  margin-bottom: 20px;
-
   @include tablet {
     font-size: 34px;
+  }
+  @include laptop {
+    max-width: 217px;
+
+    font-size: 36px;
+  }
+
+  &--paragraph {
+    @include laptop {
+      display: block;
+    }
+  }
+}
+
+.hero__icon {
+  display: none;
+
+  @include laptop {
+    display: block;
+    width: 72px;
+    height: 72px;
+    align-self: flex-end;
   }
 }
 
@@ -33,6 +90,10 @@
 
     font-size: 16px;
   }
+
+  @include laptop {
+    margin-bottom: 32px;
+  }
 }
 
 .hero__btn {
@@ -40,5 +101,9 @@
 
   @include tablet {
     min-width: 305px;
+  }
+
+  @include laptop {
+    min-width: 236px;
   }
 }

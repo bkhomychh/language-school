@@ -1,2 +1,15 @@
 .header {
+  margin-bottom: 30px;
+
+  @include tablet {
+    margin-bottom: 10px;
+  }
+
+  @include laptop {
+    margin-bottom: 40px;
+  }
+
+  @include extra {
+    margin-bottom: 55px;
+  }
 }

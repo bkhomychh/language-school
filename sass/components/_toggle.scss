@@ -1,0 +1,20 @@
+.toggle {
+  @include desktop {
+    display: none;
+  }
+}
+
+.toggle__icon {
+  width: 34px;
+  height: 19px;
+
+  @include tablet {
+    width: 42px;
+    height: 24px;
+  }
+
+  @include laptop {
+    width: 30px;
+    height: 17px;
+  }
+}
